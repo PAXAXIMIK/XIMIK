@@ -1,9 +1,9 @@
-num = int(input())  # принимаем первое число за максимальное
+num = int(input())
 large=0
 largest=0
-for i in range(num):
-    n=int(input())
-    if n > large:
+for i in range(num): #вводим количество повторений, которое необходимо
+    n=int(input()) #вводим сами числа
+    if n > large: #если, n всегда больше предыдущего, то можно было обойтись и этим решением
         largest=large
         large=n
     elif n>largest:
