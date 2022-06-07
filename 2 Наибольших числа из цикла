@@ -1,0 +1,11 @@
+num = int(input())  # принимаем первое число за максимальное
+large=0
+largest=0
+for i in range(num):
+    n=int(input())
+    if n > large:
+        largest=large
+        large=n
+    elif n>largest:
+        largest=n
+print(largest), print (large) 
